@@ -1,0 +1,28 @@
+{
+  "name": "google-spreadsheet-manager",
+  "version": "0.0.1",
+  "description": "Wrapper for the Google spreadsheet API v4",
+  "main": "index.js",
+  "dependencies": {
+    "googleapis": "^14.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duizendstra/google-spreadsheet-manager.git"
+  },
+  "keywords": [
+    "google",
+    "sheets",
+    "api"
+  ],
+  "author": "Jasper Duizendstra <jasper@duizendstra.com> (www.duizendstra.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duizendstra/google-spreadsheet-manager/issues"
+  },
+  "homepage": "https://github.com/duizendstra/google-spreadsheet-manager#readme"
+}

@@ -1,9 +1,9 @@
-var google = require('googleapis');
+var google = require("googleapis");
 
 function googleSpreadsheetManager(specs) {
     "use strict";
     var auth;
-    var sheets = google.sheets('v4');
+    var sheets = google.sheets("v4");
 
     function update(specs) {
         var spreadsheetId = specs.spreadsheetId;
@@ -20,7 +20,7 @@ function googleSpreadsheetManager(specs) {
                 }
             }, function (err) {
                 if (err) {
-                    reject('The API returned an error: ' + err);
+                    reject("The Spreadsheet API returned an error: " + err);
                     return;
                 }
                 resolve();
