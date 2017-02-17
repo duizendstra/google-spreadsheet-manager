@@ -1,6 +1,6 @@
 {
   "name": "google-spreadsheet-manager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper for the Google spreadsheet API v4",
   "main": "index.js",
   "dependencies": {
